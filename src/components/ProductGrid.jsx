@@ -1,10 +1,16 @@
 import React from 'react'
 import { Star } from 'lucide-react'
 import { useNavigate } from 'react-router-dom'
+import { useDispatch } from 'react-redux';
+import { addToCart } from './Redux/cartSlice';
 const ProductGrid = ({products}) => {
     const navigate = useNavigate();
+    const dispatch = useDispatch();
     const handleProductClick=(id)=>{
          navigate(`/product/${id}`)
+    }
+    const handleAddToCart=(product)=>{
+         dispatch(addToCart({...product, quantity: 1}));
     }
   return (
     <main className="w-full lg:w-3/4 p-4">
@@ -30,7 +36,12 @@ const ProductGrid = ({products}) => {
               {product.category && (
                 <p className="text-xs text-gray-400 mb-2">Category: {product.category}</p>
               )}
-              <button className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 text-sm">
+              <button className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 text-sm" 
+              onClick={(e)=>{
+                  e.stopPropagation();
+                  
+                  handleAddToCart(product);
+              }}>
                 Add to Cart
               </button>
             </div>

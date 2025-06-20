@@ -32,20 +32,20 @@ const Filters = ({products, setFilteredProducts}) => {
       <div className="mb-4">
         <h3 className="font-medium mb-2">Category</h3>
         <div className="space-y-2">
-          <label className="flex items-center space-x-2">
-            <input type="radio" name="category" value="All" checked={selectedCategory==="All"} onChange={handleFilter} />
+          <label className="flex items-center space-x-2 ">
+            <input className="hover:cursor-pointer" type="radio" name="category" value="All" checked={selectedCategory==="All"} onChange={handleFilter} />
             <span>All</span>
           </label>
-          <label className="flex items-center space-x-2">
-            <input type="radio" name="category" value="Electronics" checked={selectedCategory==="Electronics"} onChange={handleFilter}/>
+          <label className="flex items-center space-x-2 ">
+            <input className="hover:cursor-pointer" type="radio" name="category" value="Electronics" checked={selectedCategory==="Electronics"} onChange={handleFilter}/>
             <span>Electronics</span>
           </label>
-          <label className="flex items-center space-x-2">
-            <input type="radio" name="category" value="Clothing" checked={selectedCategory==="Clothing"} onChange={handleFilter} />
+          <label className="flex items-center space-x-2 ">
+            <input className="hover:cursor-pointer" type="radio" name="category" value="Clothing" checked={selectedCategory==="Clothing"} onChange={handleFilter} />
             <span>Clothing</span>
           </label>
-          <label className="flex items-center space-x-2">
-            <input type="radio" name="category" value="Home" checked={selectedCategory==="Home"} onChange={handleFilter}/>
+          <label className="flex items-center space-x-2 ">
+            <input className="hover:cursor-pointer" type="radio" name="category" value="Home" checked={selectedCategory==="Home"} onChange={handleFilter}/>
             <span>Home</span>
           </label>
         </div>
@@ -59,7 +59,7 @@ const Filters = ({products, setFilteredProducts}) => {
           min="0"
           max="1000"
           value={sliderValue}
-          className="w-full"
+          className="w-full hover:cursor-pointer"
           onChange={(e) => setSliderValue(e.target.value)}
         />
         <div className="text-sm text-white flex justify-between">
@@ -72,7 +72,7 @@ const Filters = ({products, setFilteredProducts}) => {
       {/* Brand */}
       <div className="mb-4 text-white">
         <h3 className="font-medium mb-2">Brand</h3>
-        <select className="w-full bg-blue-600 border border-white rounded px-2 py-1 text-sm text-white focus:outline-none">
+        <select className="w-full bg-blue-600 border border-white rounded px-2 py-1 text-sm text-white focus:outline-none hover:cursor-pointer">
           <option>Puma</option>
           <option>Apple</option>
           <option>Samsung</option>

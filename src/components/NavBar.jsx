@@ -1,8 +1,9 @@
 import React, { useEffect, useState } from "react";
 import { Search, ShoppingCart } from "lucide-react";
+import { useNavigate } from "react-router-dom";
 const NavBar = ({products, setFilteredProducts}) => {
   const[searchValue, setSearchValue] = useState("");
-
+   const navigate = useNavigate();
   useEffect(()=>{   
       //debouncing for efficient searching
       const timer = setTimeout(()=>{
@@ -16,10 +17,13 @@ const NavBar = ({products, setFilteredProducts}) => {
       }, 300)
       return ()=>clearTimeout(timer);
   }, [searchValue])
+  const handleClick=()=>{
+      navigate("/cart")
+  }
   return (
     <nav className="bg-blue-700 text-white px-4 py-3 flex items-center justify-between">
       {/* Logo */}
-      <div className="text-2xl font-bold">Logo</div>
+      <div className="text-2xl font-bold hover:cursor-pointer" onClick={()=>navigate("/")}>Logo</div>
 
       {/* Search Bar */}
       <div className="flex-1 mx-6 max-w-xl">
@@ -35,7 +39,9 @@ const NavBar = ({products, setFilteredProducts}) => {
       </div>
 
       {/* Cart Button */}
-      <button className="flex items-center bg-blue-900 hover:bg-blue-800 px-4 py-2 rounded-md">
+      <button className="flex items-center bg-blue-900 hover:bg-blue-800 px-4 py-2 rounded-md hover:cursor-pointer"
+         onClick={handleClick}
+      >
         <ShoppingCart className="w-4 h-4 mr-2" />
         <span className="font-semibold">Cart</span>
       </button>
