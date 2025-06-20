@@ -1,0 +1,272 @@
+[
+  {
+    "id": 2,
+    "title": "Bluetooth Speaker",
+    "price": 220,
+    "image": "https://m.media-amazon.com/images/I/71GNqOPWAuL._SX679_.jpg",
+    "category": "Electronics",
+    "rating": 5,
+    "description": "Portable wireless speaker with rich bass and long battery life."
+  },
+  {
+    "id": 12,
+    "title": "Sneakers",
+    "price": 659,
+    "image": "https://m.media-amazon.com/images/I/614aiM56siL._UY1000_.jpg",
+    "category": "Clothing",
+    "rating": 3,
+    "description": "Comfortable and stylish sneakers for everyday wear."
+  },
+  {
+    "id": 24,
+    "title": "Sofa Cushion Set",
+    "price": 508,
+    "image": "https://borotik.in/wp-content/uploads/2021/05/18.png",
+    "category": "Home",
+    "rating": 3,
+    "description": "Pack of 4 soft cushions with premium fabric covers."
+  },
+  {
+    "id": 26,
+    "title": "Cooking Pan",
+    "price": 342,
+    "image": "https://m.media-amazon.com/images/I/71YGh+m0fAL._SX679_.jpg",
+    "category": "Home",
+    "rating": 4,
+    "description": "Non-stick cooking pan with ergonomic handle."
+  },
+  {
+    "id": 5,
+    "title": "Laptop",
+    "price": 485,
+    "image": "https://m.media-amazon.com/images/I/316ArzLeJ2L._SX300_SY300_QL70_FMwebp_.jpg",
+    "category": "Electronics",
+    "rating": 3,
+    "description": "Lightweight laptop with long battery life and high performance."
+  },
+  {
+    "id": 23,
+    "title": "Electric Kettle",
+    "price": 613,
+    "image": "https://m.media-amazon.com/images/I/71cFxsy+BCL._SX679_.jpg",
+    "category": "Home",
+    "rating": 4,
+    "description": "1.5L stainless steel electric kettle with auto shut-off."
+  },
+  {
+    "id": 1,
+    "title": "Smartphone",
+    "price": 562,
+    "image": "https://opsg-img-cdn-gl.heytapimg.com/epb/202505/23/l7uPZsy8Us3Ml7j0.png",
+    "category": "Electronics",
+    "rating": 5,
+    "description": "High-end smartphone with powerful performance and camera."
+  },
+  {
+    "id": 3,
+    "title": "LED TV 42\"",
+    "price": 218,
+    "image": "https://www.lg.com/content/dam/channel/wcms/in/images/tvs/offers/gallery/new/55QNED82T6A-2010x1334.jpg/_jcr_content/renditions/thum-1600x1062.jpeg",
+    "category": "Electronics",
+    "rating": 3,
+    "description": "42-inch HD LED TV with HDMI and USB support."
+  },
+  {
+    "id": 17,
+    "title": "Hoodie",
+    "price": 282,
+    "image": "https://m.media-amazon.com/images/I/616GHHflDkL._SX569_.jpg",
+    "category": "Clothing",
+    "rating": 5,
+    "description": "Fleece-lined hoodie for casual wear and warmth."
+  },
+  {
+    "id": 14,
+    "title": "Jeans",
+    "price": 497,
+    "image": "https://americanmadness.co.uk/cdn/shop/files/1744381714033_edited_f3dab686_c55f_438f_9c3d_e681edc220ba_990x.webp?v=1744382615",
+    "category": "Clothing",
+    "rating": 4,
+    "description": "Slim-fit jeans with stretchable material for comfort."
+  },
+  {
+    "id": 4,
+    "title": "Wireless Headphones",
+    "price": 498,
+    "image": "https://www.beatsbydre.com/content/dam/beats/web/product/headphones/solo4-wireless/pdp/product-carousel/cloud-pink/pink-01-solo4.jpg.large.2x.jpg",
+    "category": "Electronics",
+    "rating": 4,
+    "description": "Noise-canceling over-ear headphones with deep bass."
+  },
+  {
+    "id": 27,
+    "title": "Curtains",
+    "price": 302,
+    "image": "https://rdtrend.in/wp-content/uploads/2022/08/9-feet-Long-Door-Curtains-Polyester-Room-Darkening-Set-Of-2-White50b.png",
+    "category": "Home",
+    "rating": 4,
+    "description": "Blackout curtains with modern design."
+  },
+  {
+    "id": 28,
+    "title": "Chair",
+    "price": 35,
+    "image": "https://metercube.com/wp-content/uploads/2020/05/10300302_01-jpg.webp",
+    "category": "Home",
+    "rating": 5,
+    "description": "Comfortable lounge chair with wooden frame."
+  },
+  {
+    "id": 22,
+    "title": "Wall Clock",
+    "price": 214,
+    "image": "https://m.media-amazon.com/images/I/41Zs--302jL._SY300_SX300_QL70_FMwebp_.jpg",
+    "category": "Home",
+    "rating": 4,
+    "description": "Minimalist wall clock perfect for modern interiors."
+  },
+  {
+    "id": 18,
+    "title": "Sunglasses",
+    "price": 392,
+    "image": "https://queuniverse.com/cdn/shop/files/13_4f49e15d-fbc1-423a-9d8f-01341eb174d1.png?v=1749034254&width=1800",
+    "category": "Clothing",
+    "rating": 3,
+    "description": "UV-protected stylish sunglasses for outdoor use."
+  },
+  {
+    "id": 16,
+    "title": "Cap",
+    "price": 541,
+    "image": "https://res.cloudinary.com/rsc/image/upload/b_rgb:FFFFFF,c_pad,dpr_1.0,f_auto,q_auto,w_700/c_pad,w_700/R1370284-01",
+    "category": "Clothing",
+    "rating": 3,
+    "description": "Adjustable baseball cap with breathable fabric."
+  },
+  {
+    "id": 20,
+    "title": "Scarf",
+    "price": 496,
+    "image": "https://in.benetton.com/cdn/shop/files/AW24_20Import_5C24AI_24A1002DU01E_2Z4_FS_960x_crop_center.jpg?v=1732556424",
+    "category": "Clothing",
+    "rating": 4,
+    "description": "Woolen scarf for winter and casual styling."
+  },
+  {
+    "id": 13,
+    "title": "Denim Jacket",
+    "price": 204,
+    "image": "https://www.versace.com/dw/image/v2/BGWN_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dw9ddb1b03/original/90_1011518-1A07079_1D100_10_DenimJacket--Versace-online-store_4_1.jpg?sw=850&q=85&strip=true",
+    "category": "Clothing",
+    "rating": 4,
+    "description": "Classic denim jacket with durable fabric and modern fit."
+  },
+  {
+    "id": 19,
+    "title": "Watch",
+    "price": 696,
+    "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=300&q=80",
+    "category": "Clothing",
+    "rating": 3,
+    "description": "Analog wristwatch with leather strap."
+  },
+  {
+    "id": 11,
+    "title": "T-Shirt",
+    "price": 410,
+    "image": "https://unstd.shop/cdn/shop/files/ROYAL-BLUE_8eefdc98-fc30-4ded-973d-169e4da35bcc.jpg?v=1730202368&width=600",
+    "category": "Clothing",
+    "rating": 4,
+    "description": "Soft cotton T-shirt available in multiple colors."
+  },
+  {
+    "id": 21,
+    "title": "Vacuum Cleaner",
+    "price": 205,
+    "image": "https://m.media-amazon.com/images/I/51-NgiUucAL._SX679_.jpg",
+    "category": "Home",
+    "rating": 3,
+    "description": "Powerful vacuum cleaner with HEPA filter and attachments."
+  },
+  {
+    "id": 7,
+    "title": "Smartwatch",
+    "price": 541,
+    "image": "https://m.media-amazon.com/images/I/41O7YJM+9+L._SY300_SX300_.jpg",
+    "category": "Electronics",
+    "rating": 5,
+    "description": "Fitness and notification smartwatch with sleek design."
+  },
+  {
+    "id": 6,
+    "title": "Tablet",
+    "price": 288,
+    "image": "https://p3-ofp.static.pub/fes/cms/2023/02/22/5rhddw9d8vm9xfkexcwzvvi9lindg8985574.png",
+    "category": "Electronics",
+    "rating": 5,
+    "description": "Portable tablet with HD screen and long battery life."
+  },
+  {
+    "id": 30,
+    "title": "Coffee Maker",
+    "price": 273,
+    "image": "https://coffeeworkz.com/cdn/shop/files/Pedrini_Aroma_Chic_Moka_Pot_6-Cup_Aluminum_Stovetop_Espresso_Maker_with_Stylish_Design.jpg?v=1744443233",
+    "category": "Home",
+    "rating": 3,
+    "description": "Automatic drip coffee maker with timer."
+  },
+  {
+    "id": 15,
+    "title": "Backpack",
+    "price": 403,
+    "image": "https://m.media-amazon.com/images/I/61mbnbBi2CL._SX679_.jpg",
+    "category": "Clothing",
+    "rating": 4,
+    "description": "Water-resistant backpack with multiple compartments."
+  },
+  {
+    "id": 25,
+    "title": "Table Lamp",
+    "price": 627,
+    "image": "https://m.media-amazon.com/images/I/617jZZZhr3S._SX679_.jpg",
+    "category": "Home",
+    "rating": 3,
+    "description": "LED table lamp with brightness control."
+  },
+  {
+    "id": 9,
+    "title": "Drone",
+    "price": 549,
+    "image": "https://www.xboom.in/wp-content/uploads/2023/09/4-11.png",
+    "category": "Electronics",
+    "rating": 5,
+    "description": "Quadcopter drone with 4K camera and remote control."
+  },
+  {
+    "id": 10,
+    "title": "Power Bank",
+    "price": 443,
+    "image": "https://www.belkin.com/dw/image/v2/BGBH_PRD/on/demandware.static/-/Sites-master-product-catalog-blk/default/dwfeb09b65/images/hi-res/7/5031c2c2953304a8_BPB014btBK_20KmAH_20W_PDCompact_PowerBank_shot1_web.jpg?sw=700&sh=700&sm=fit&sfrm=png",
+    "category": "Electronics",
+    "rating": 3,
+    "description": "10000mAh fast-charging portable power bank."
+  },
+  {
+    "id": 8,
+    "title": "Digital Camera",
+    "price": 59,
+    "image": "https://m.media-amazon.com/images/I/41po0Y8FRnL._SY300_SX300_QL70_FMwebp_.jpg",
+    "category": "Electronics",
+    "rating": 5,
+    "description": "DSLR camera with high resolution and fast autofocus."
+  },
+  {
+    "id": 29,
+    "title": "Desk Organizer",
+    "price": 309,
+    "image": "https://paperlla.com/cdn/shop/files/61SpHbNAs7L._SL1100.jpg?v=1699877503&width=713",
+    "category": "Home",
+    "rating": 3,
+    "description": "Multipurpose desk organizer for office use."
+  }
+]
