@@ -22,9 +22,7 @@ const Cart = () => {
     (sum, item) => sum + item.price * item.quantity,
     0
   );
-  if(products.length===0){
-      return(<div className="flex items-center justify-center"><h1 className="text-2xl font-bold">Cart is Empty</h1></div>)
-  }
+
   return (
     <div>
         {/* navBar */}
