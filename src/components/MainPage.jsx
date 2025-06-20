@@ -3,7 +3,7 @@ import Footer from "./Footer";
 import Filters from "./Filters";
 import ProductGrid from "./ProductGrid"
 import products from "../data/products.json"
-import NavBar from './navBar';
+import NavBar from './NavBar';
 import { useState } from 'react';
 const MainPage = () => {
     const[filteredProducts, setFilteredProducts] = useState(products);
