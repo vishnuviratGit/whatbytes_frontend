@@ -7,7 +7,7 @@ import {
 } from "./Redux/cartSlice";
 import { Star, ShoppingCart } from "lucide-react";
 import { useNavigate } from "react-router-dom";
-import NavBar from "./navBar";
+
 
 const Cart = () => {
   const products = useSelector((state) => state.cart.items);
