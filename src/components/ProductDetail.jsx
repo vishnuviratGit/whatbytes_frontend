@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import products from "../data/products.json";
-import NavBar from "./navBar";
 import { useDispatch } from "react-redux";
 import { addToCart } from "./Redux/cartSlice";
 import { ShoppingCart } from "lucide-react";
